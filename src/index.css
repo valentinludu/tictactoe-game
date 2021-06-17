@@ -1,0 +1,20 @@
+body {
+  font: 16px Roboto, Arial, sans-serif;
+  margin: 10px;
+  background: #e6e6e6;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+@media(min-width: 768px) {
+  body {
+    margin: 40px;
+  }
+}

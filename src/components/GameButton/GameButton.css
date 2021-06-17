@@ -1,0 +1,21 @@
+.gameButton {
+  background-color: #4ca2a2;
+  border: none;
+  border-radius: 3px;
+  color: #fffde7;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 2;
+  padding: 2px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.gameButton:hover {
+  background: #323e6d;
+}
+
+.gameButton:focus {
+  outline: none;
+}

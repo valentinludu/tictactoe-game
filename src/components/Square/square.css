@@ -1,0 +1,25 @@
+.square {
+    background: #323e6d;
+    border: 4px solid #4ca2a2;
+    color: #fff;
+    font-family: 'Permanent Marker', Roboto, Arial, cursive;
+    font-size: 65px;
+    height: 100px;
+    width: 100px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.square.active {
+    border-color: #45ff00;
+}
+
+@media(min-width: 768px) {
+    .square {
+        font-size: 85px;
+        height: 136px;
+        width: 136px;
+    }
+}

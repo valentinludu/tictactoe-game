@@ -1,0 +1,21 @@
+.body {
+    margin: auto;
+    width: max-content;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.board {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    display: grid;
+    margin: 0 auto;
+}
+
+.restartBtn {
+    margin-top: 20px;
+    text-align: center;
+}
