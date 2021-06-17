@@ -1,8 +1,12 @@
 Simple Tic Tac Toe game bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-On load you can start immediately or restart the game by the press of a button.
+When you first load the game you need to add 2 names to start it.
+The names need to be different otherwise you will get an error message.
 
-See the game in action at https://valentinludu.github.io/tictactoe/
+Next page is the game where you can play and win.
+When you finish the game you can start a new game or go to results page.
+
+In the results page you can see a leaderboard with all the players that have won the game.
 
 ## Available Scripts
 
