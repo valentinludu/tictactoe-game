@@ -22,7 +22,7 @@ const ResultsTable = ({ results, loading }) => {
                 </div>
                 {results.map((player, index) => (
                     <div key={player.id} className={styles.player}>
-                        <span>{index}</span>
+                        <span>{index + 1}</span>
                         <span>{player.player}</span>
                         <span>{player.wins}</span>
                     </div>
