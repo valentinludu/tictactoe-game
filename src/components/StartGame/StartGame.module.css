@@ -1,0 +1,33 @@
+.playerLabel {
+  display: block;
+}
+
+.playerInput {
+  display: block;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.players {
+  margin: auto;
+  width: fit-content;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.form button {
+  grid-area: 3 / 2 / 3 / 3;
+}
+
+@media (min-width: 768px) {
+  .playerInput {
+    display: inline-block;
+  }
+}

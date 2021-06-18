@@ -1,0 +1,23 @@
+.resultsWrapper {
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.player.tableHead:first-child {
+  background: #57a3a3;
+}
+
+.player:nth-child(odd) {
+  background: #ccc;
+}
+
+.loading {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}

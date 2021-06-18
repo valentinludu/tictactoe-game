@@ -1,6 +1,8 @@
+import PlayersResults from "../../containers/PlayersResults";
+
 const Results = () => {
 
-    return "Results page";
-}
+    return <PlayersResults />;
+};
 
 export default Results;

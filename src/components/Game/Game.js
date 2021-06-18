@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import Square from '../Square';
 import GameButton from '../GameButton';
+import Title from "../Title";
 import { useGame } from '../../hooks/useGame';
-import './Game.css';
+import styles from './Game.module.css';
 
 const Game = ({ players, sendWinner }) => {
     const { handleSquareClick, handleRestartGame, getStatus, squares, lines = [], gameEnded } = useGame(players, sendWinner);
@@ -17,10 +18,10 @@ const Game = ({ players, sendWinner }) => {
     };
 
     return (
-        <div className="game">
-            <div className="info">{getStatus}</div>
-            <div className="body">
-                <div className="board">
+        <div className={styles.game}>
+            <Title>{getStatus}</Title>
+            <div className={styles.body}>
+                <div className={styles.board}>
                     {squares.map((square, index) => (
                         <Fragment key={`${square}-${index}`}>
                             {renderSquare(index)}
@@ -28,7 +29,7 @@ const Game = ({ players, sendWinner }) => {
                     ))}
                 </div>
                 {gameEnded && (
-                    <div className="buttons">
+                    <div className={styles.buttons}>
                         <GameButton type="button" onClick={handleRestartGame}>Restart Game</GameButton>
                         <GameButton type="link" to="/results">See results</GameButton> 
                     </div>

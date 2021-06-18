@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import MenuItem from "../MenuItem";
 
 import styles from "./Header.module.css";
 
@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className={styles.menu}>
             {menuItems.map(item => (
-                <Link to={item.toLowerCase()} key={item}>{item}</Link>
+                <MenuItem to={item.toLowerCase()} key={item}>{item}</MenuItem>
             ))}
         </div>
     );
