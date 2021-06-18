@@ -1,12 +1,14 @@
-Simple Tic Tac Toe game bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Tic Tac Toe game bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and hosted on Firebase.
 
 When you first load the game you need to add 2 names to start it.
 The names need to be different otherwise you will get an error message.
 
 Next page is the game where you can play and win.
-When you finish the game you can start a new game or go to results page.
+When you finish the game you can start a new game or go to the results page.
 
 In the results page you can see a leaderboard with all the players that have won the game.
+
+App link: https://tictactoeproject-8c832.web.app
 
 ## Available Scripts
 
