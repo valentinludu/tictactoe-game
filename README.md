@@ -25,7 +25,13 @@ Launches the test runner in the interactive watch mode.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.
+
+### `firebase deploy`
+
+Deploy the app to firebase hosting.
+
+**Note: Run this command only after `yarn build`.**
 
 ### `yarn eject`
 
